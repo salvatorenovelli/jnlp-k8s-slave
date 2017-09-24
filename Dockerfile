@@ -17,5 +17,3 @@ RUN gcloud components install kubectl
 RUN curl -sL https://deb.nodesource.com/setup_8.x | /bin/bash -
 RUN apt-get install -y nodejs
 RUN npm install -g yarn
-
-ENTRYPOINT /bin/cat
